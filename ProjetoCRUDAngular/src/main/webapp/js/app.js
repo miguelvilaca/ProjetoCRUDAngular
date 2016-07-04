@@ -4,7 +4,7 @@
 	
 	app.controller("PeopleHttpCtrl", function($scope, $http) {
 		var app = this;
-		$scope.title = 'Registration of people';
+		$scope.title = 'People Registration';
 		$scope.id = null;
 		$scope.isUpdate = null;
 		
